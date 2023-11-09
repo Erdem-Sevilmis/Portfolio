@@ -6,6 +6,8 @@ import Header from '../component/Header';
 import Socials from '../component/Socials';
 import MainPageStepper from '../component/MainPageStepper';
 import CarRenderer from '../component/CarRenderer';
+import MostRecentProject from '../component/MostRecentProject';
+import CodeBlock from '../component/CodeBlock';
 
 
 const IndexPage = () => (
@@ -17,11 +19,11 @@ const IndexPage = () => (
 
         <VStack spacing={20} align={'start'}>
           <HStack>
-            
-          <Header />
-
-          <CarRenderer/>
+            <Header />
+            <CarRenderer />
           </HStack>
+          <CodeBlock />
+          <MostRecentProject />
           <Socials />
 
           <Socials />
