@@ -5,6 +5,7 @@ import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { SiMinutemailer } from "react-icons/si";
 
 export default function Socials() {
+ 
     return (
         <VStack spacing={3} align={'start'}>
             <VStack align={'start'}>
