@@ -1,6 +1,6 @@
 import { ChakraProvider, ColorModeProvider } from '@chakra-ui/react';
 import { CSSReset, ThemeProvider } from '@chakra-ui/react';
-import theme from './theme';
+import theme from '../component/theme';
 
 function MyApp({ Component, pageProps }) {
     return (
